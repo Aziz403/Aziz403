@@ -16,7 +16,7 @@
 
 I am a Full Stack Developer from Morocco.
 
-- :telescope: I’m working as a PHP Developer.
+- :telescope: I’m working as a Full Stack Developer.
 
 - :seedling: Exploring New Features in Dev.
 
