@@ -1,7 +1,7 @@
 {
   "name": "portfolios",
   "version": "0.1.0",
-  "homepage": "https://aziz403.github.io/Aziz403",
+  "homepage": "https://aziz403.github.io/aziz403",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
