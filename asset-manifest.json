@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/aziz403/static/css/main.4f94f173.css",
-    "main.js": "/aziz403/static/js/main.1babdd44.js",
-    "static/media/map.png": "/aziz403/static/media/map.821f91bdebaf6ebc68b8.png",
-    "static/media/8-bit Arcade Out.ttf": "/aziz403/static/media/8-bit Arcade Out.75e7582071d3e8de8ed0.ttf",
-    "static/media/8-bit Arcade In.ttf": "/aziz403/static/media/8-bit Arcade In.ef0dc9b63a8d15d3c830.ttf",
-    "static/media/Fipps-Regular.otf": "/aziz403/static/media/Fipps-Regular.03d277fc2c330359cf58.otf",
-    "static/media/Mario-Kart-DS.ttf": "/aziz403/static/media/Mario-Kart-DS.caaef0c714eed1187a17.ttf",
-    "index.html": "/aziz403/index.html",
-    "main.4f94f173.css.map": "/aziz403/static/css/main.4f94f173.css.map",
-    "main.1babdd44.js.map": "/aziz403/static/js/main.1babdd44.js.map"
+    "main.css": "/static/css/main.6c2ece68.css",
+    "main.js": "/static/js/main.5eb89ae6.js",
+    "static/media/map.png": "/static/media/map.821f91bdebaf6ebc68b8.png",
+    "static/media/8-bit Arcade Out.ttf": "/static/media/8-bit Arcade Out.75e7582071d3e8de8ed0.ttf",
+    "static/media/8-bit Arcade In.ttf": "/static/media/8-bit Arcade In.ef0dc9b63a8d15d3c830.ttf",
+    "static/media/Fipps-Regular.otf": "/static/media/Fipps-Regular.03d277fc2c330359cf58.otf",
+    "static/media/Mario-Kart-DS.ttf": "/static/media/Mario-Kart-DS.caaef0c714eed1187a17.ttf",
+    "index.html": "/index.html",
+    "main.6c2ece68.css.map": "/static/css/main.6c2ece68.css.map",
+    "main.5eb89ae6.js.map": "/static/js/main.5eb89ae6.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f94f173.css",
-    "static/js/main.1babdd44.js"
+    "static/css/main.6c2ece68.css",
+    "static/js/main.5eb89ae6.js"
   ]
 }
