@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+    cursor: none;
+    list-style-type: none;
+}
+
+
+@font-face {
+    font-family: "Fipps";
+    src: url("fonts/Fipps-Regular.otf");
+}
+.text-fipps{
+    font-family: 'Fipps',sans-serif;
+}
+
+
+
+@font-face {
+    font-family: "Mario-Kart-DS";
+    src: url("fonts/Mario-Kart-DS.ttf");
+}
+.text-mario{
+    font-family: 'Mario-Kart-DS',sans-serif;
+}
+
+
+
+@font-face {
+    font-family: "8-bit Arcade Out";
+    src: url("fonts/8-bit\ Arcade\ Out.ttf");
+}
+.text-8bit-out{
+    font-family: '8-bit Arcade Out',sans-serif;
+}
+
+
+
+@font-face {
+    font-family: "8-bit Arcade In";
+    src: url("fonts/8-bit\ Arcade\ In.ttf");
+}
+.text-8bit-in{
+    font-family: '8-bit Arcade In',sans-serif;
+}
+
+:focus{
+    outline: none;
+}
+
+#Cursor{
+    width: 30px;
+    height: 30px;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    box-sizing: content-box;
+    transition: 0.1s;
+    transform: translate(-50%,-50%);
+    z-index: 1000;
+    pointer-events: none;
+}
+
+.cursor-anim{
+    animation: Rotate 5s infinite;
+}
+
+@keyframes Rotate {
+    0%,100%{
+        border-style:dashed;
+        transform: translate(-50%,-50%) rotate(0deg) scale(2);
+    }
+    50%{
+        transform: translate(-50%,-50%) rotate(360deg) scale(1.8);
+    }
+}
+
+
+.link{
+    position: relative;
+    z-index: 510;
+}
+
+.link::after{
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    background-color: #2666CF;
+    height: 40%;
+    width: 100%;
+    transition: 0.6s ease-out;
+    z-index: 200;
+    mix-blend-mode: color;
+}
+
+.link:hover:after{
+    height: calc(100% + 3px);
+    z-index: 200;
+}
+
+h1{
+    letter-spacing: 1px;
+}
+
+
+::-webkit-scrollbar{
+    width: 12px;
+    background-color: #a7f3d0;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #059669;
+}
+
+.h-main{
+    min-height: calc(100vh - 3rem);
+}
+
+@media (min-width:768px) {
+    .h-main{
+        min-height: calc(100vh - 5.5rem);
+    }   
+}
+
+
+.skill-d{
+    width: var(--d);
+}
+
+.h-skills{
+    height: auto
+}
+
+.h-study{
+    height: auto
+}
+
+.h-pd{
+    max-height: fit-content;
+}
+
+@media (min-width:768px) {
+    .h-skills{
+        height: calc(100vh - 7rem);
+    }   
+
+    .h-study{
+        height: calc(100vh - 11rem);
+    }   
+
+    .h-pd{
+        max-height:600px
+    }
+}
